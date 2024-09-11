@@ -1,4 +1,4 @@
-name: "Hexlet-CI"
+name: Hexlet-CI
   on: push
     jobs:
       test:
