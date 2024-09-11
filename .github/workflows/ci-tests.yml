@@ -1,14 +1,14 @@
 name: Hexlet-CI
-  on: push
-    jobs:
-      test:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v4
-          - name: Setup
-            run: make setup
-          - name: Test
-            run: make test
-          - name: Lint
-            run: make lint
+on: push
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup
+        run: make setup
+      - name: Test
+        run: make test
+      - name: Lint
+        run: make lint
