@@ -1,3 +1,5 @@
+[![Hexlet-CI](https://github.com/iKogep23/hexlet-ci-app/actions/workflows/ci-tests.yml/badge.svg)](https://github.com/iKogep23/hexlet-ci-app/actions/workflows/ci-tests.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
